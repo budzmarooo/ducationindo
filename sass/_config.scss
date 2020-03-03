@@ -1,0 +1,91 @@
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  background-color: #fafafa;
+  color: #0f0f0f;
+  font-family: "Artegra Regular";
+  position: relative;
+}
+
+h1 {
+  font-size: 48px;
+}
+
+h2 {
+  font-size: 25px;
+}
+
+ul {
+  padding: 0;
+}
+
+li {
+  display: inline-block;
+}
+
+a {
+  text-decoration: none;
+  color: #0f0f0f;
+}
+
+@font-face {
+  font-family: "Artegra Condense";
+  src: url("../assets/fonts/ArtegraSansCondensed-Medium.otf");
+  font-style: none;
+  font-weight: 400;
+}
+
+@font-face {
+  font-family: "Artegra Regular";
+  src: url("../assets/fonts/ArtegraSans-Regular.otf");
+  font-style: none;
+  font-weight: 400;
+}
+
+@font-face {
+  font-family: "Artegra Extended";
+  src: url("../assets/fonts/ArtegraSans-Regular.otf");
+  font-style: none;
+  font-weight: 700;
+}
+
+@keyframes transitionIn {
+  from {
+    opacity: 0;
+    transform: translateX(23px);
+  }
+
+  to {
+    opacity: 1;
+    transform: translateX(0);
+  }
+}
+
+@keyframes transitionText {
+  from {
+    opacity: 0;
+    transform: translateX(-23px);
+  }
+
+  to {
+    opacity: 1;
+    transform: translateX(0);
+  }
+}
+
+@keyframes transitionHead {
+  from {
+    opacity: 0;
+    transform: translateY(-13px);
+  }
+
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}

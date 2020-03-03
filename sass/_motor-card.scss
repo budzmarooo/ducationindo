@@ -1,0 +1,47 @@
+.motor-card {
+  width: 96%;
+  margin: 0 auto;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-gap: 3rem;
+  .card {
+    margin: 0 auto 40px auto;
+    width: 380px;
+    background-color: #ffffff;
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12), 0 1px 2px rgba(0, 0, 0, 0.24);
+    transition: all 0.5s;
+    border-radius: 3px;
+
+    &:hover {
+      box-shadow: 0 14px 28px rgba(0, 0, 0, 0.25),
+        0 10px 10px rgba(0, 0, 0, 0.22);
+    }
+
+    &__img__container {
+      img {
+        border-radius: 3px;
+        width: 100%;
+        height: 230px;
+      }
+    }
+
+    &-body {
+      padding: 20px 30px 60px;
+      &__title {
+        font-family: "Artegra Condense";
+        letter-spacing: 1px;
+        line-height: 15.69px;
+        font-size: 14px;
+        font-weight: 200;
+        color: #666666;
+      }
+      &__parah {
+        font-family: "Artegra Extended";
+        font-size: 18px;
+        line-height: 21.6px;
+        color: #0f0f0f;
+        letter-spacing: 1.6px;
+      }
+    }
+  }
+}
